@@ -21,7 +21,7 @@ function renderMap(URL1, URL2) {
         d3.json(URL2, function(data) {
             let lineInfo = data;
             addons(quakeData, lineInfo);
-        };
+        });
     });
 
 
